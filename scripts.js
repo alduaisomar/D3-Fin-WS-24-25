@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const studentData = [
-        { id: "20231103148", name: " Abdallah Hazem Abdul-Rahman Shaheen", section: "  14", lecturer: " Husein Al-Neimat", session: "   1st Session", time: " 09:00-11:00", lab: "    C408" },
+     { id: "Student ID", name: " Student Name", section: "  Course Section ", lecturer: " Lecturer", session: "   Sesseion", time: " Time", lab: "    Lab" },
+{ id: "20231103148", name: " Abdallah Hazem Abdul-Rahman Shaheen", section: "  14", lecturer: " Husein Al-Neimat", session: "   1st Session", time: " 09:00-11:00", lab: "    C408" },
 { id: "20231103061", name: " Abdel Rahman Majdi Mah'd Shehadeh", section: "  14", lecturer: " Husein Al-Neimat", session: "   1st Session", time: " 09:00-11:00", lab: "    C408" },
 { id: "20229501147", name: " Abdelhamid Ahmad  Abdelhamid Alqattan", section: "  14", lecturer: " Husein Al-Neimat", session: "   1st Session", time: " 09:00-11:00", lab: "    C408" },
 { id: "20231103070", name: " Anas Ahmad Moufeed Almu'atasim", section: "  14", lecturer: " Husein Al-Neimat", session: "   1st Session", time: " 09:00-11:00", lab: "    C408" },
@@ -52,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
 { id: "20231701029", name: " Sara Rami Mahmoud Najadat", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B302" },
 { id: "20231702004", name: " Sarah Shihan Abdul Kareem Al Malahmeh", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B302" },
 { id: "20232405034", name: " Sharif M M Hasna", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B302" },
-{ id: "20231105022", name: " Wisam Ali Mohammad Alzghoul", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B302" },
-{ id: "20239103041", name: " Zaid Omar Abdallah Alshoubaki", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B302" },
-{ id: "20239301008", name: " Zenah Belal Abdallah Hammouri", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B302" },
+{ id: "20231105022", name: " Wisam Ali Mohammad Alzghoul", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B303" },
+{ id: "20239103041", name: " Zaid Omar Abdallah Alshoubaki", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B303" },
+{ id: "20239301008", name: " Zenah Belal Abdallah Hammouri", section: "  26", lecturer: " Ruba Alshawabkeh", session: "   1st Session", time: " 09:00-11:00", lab: "    B303" },
 { id: "20241501036", name: " Husein Ahmad Hussein Alkharabsheh", section: "  24", lecturer: " Maryam Al Qwidari", session: "   1st Session", time: " 09:00-11:00", lab: "    B303" },
 { id: "20231504009", name: " Mustafa Ibrahim M. Al Masri", section: "  24", lecturer: " Maryam Al Qwidari", session: "   1st Session", time: " 09:00-11:00", lab: "    B303" },
 { id: "20239105058", name: " Rashed Sami Mahmoud Alshawabkeh", section: "  24", lecturer: " Maryam Al Qwidari", session: "   1st Session", time: " 09:00-11:00", lab: "    B303" },
@@ -416,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function () {
 { id: "20232103192", name: " Yaseen Haider Abdulmohsin Al-Zubaidi", section: "  15", lecturer: " Samar Mjalli", session: "   2nd Session", time: " 11:30-13:30", lab: "    L208" },
 { id: "20239402020", name: " Yousef Mazin Helmi Qasmieh", section: "  15", lecturer: " Samar Mjalli", session: "   2nd Session", time: " 11:30-13:30", lab: "    L208" },
 { id: "20231301027", name: " Zaid Othman Abdallah Mohammad", section: "  15", lecturer: " Samar Mjalli", session: "   2nd Session", time: " 11:30-13:30", lab: "    L208" },
-   
+
     ];
 
     const searchInput = document.getElementById('searchInput');
